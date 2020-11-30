@@ -803,6 +803,36 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+
+.linked-img:hover img{
+  box-shadow: 0 0 3px 3px rgba(129, 179, 144, 0.5);
+  opacity: 0.3;
+  /*transform: scale(1.05);*/
+}
+
+.overlay {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #ffffff; 
+  width: 92%;
+  transition: .5s ease;
+  opacity:0;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
+}
+
+.overlay p{
+  font-size: 15px;
+}
+.linked-img:hover .overlay {
+  opacity: 1.5;
+}
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
   
@@ -873,11 +903,8 @@ section {
   bottom: 0;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
-  padding: 20px;
+  
+  padding: 50px;
 }
 
 .portfolio .portfolio-wrap .portfolio-info h4 {
@@ -904,7 +931,7 @@ section {
   font-style: italic;
 }
 
-.portfolio .portfolio-wrap .portfolio-links {
+.portfolio .portfolio-wrap  {
   text-align: center;
   z-index: 4;
 }
