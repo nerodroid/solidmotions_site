@@ -698,6 +698,14 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
+.services .section-title {
+/*	background: #fff; 
+	text-color
+*/	color: #fff;
+}
+
+
 .services .icon-box {
   margin-bottom: 20px;
   text-align: center;
