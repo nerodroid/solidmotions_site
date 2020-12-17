@@ -81,6 +81,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #header .logo img {
   max-height: 80px;
+  
+  padding-right:50px;
 }
 
 /*--------------------------------------------------------------
@@ -111,7 +113,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
-  padding: 0 4px;
+  padding: 0 10px;
+  
   text-transform: uppercase;
 }
 
@@ -1444,6 +1447,7 @@ section {
 --------------------------------------------------------------*/
 .portfolio-details {
   padding-top: 40px;
+  background-color :#444444;
 }
 
 .portfolio-details .portfolio-details-container {
@@ -1508,12 +1512,14 @@ section {
 .portfolio-details .portfolio-description h2 {
   width: 50%;
   font-size: 26px;
+  color : #fff;
   font-weight: 700;
   margin-bottom: 20px;
 }
 
 .portfolio-details .portfolio-description p {
   padding: 0 0 0 0;
+  color : #fff;
 }
 
 @media (max-width: 768px) {
